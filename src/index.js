@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const status = require('http-status');
 
-const AuthService = require('./services/AuthServices');
+const AuthService = require('./services/AuthService');
 
 const app = express();
 const port = process.env.PORT || 4000;
